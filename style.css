@@ -11,6 +11,7 @@ body {
 	text-align: center;
 	font-family: "Montserrat";
 	color: white;
+	transition: 0.6s;
 }
 
 #rgb-code {
@@ -39,7 +40,7 @@ body {
 	padding: 7px 10px 5px 10px;
 /*	bottom: 30%;
 	left: 29%;*/
-	left: 380px;
+	left: 350px;
 	bottom: 9px;
 	color: #4682B4;
 	background-color: white;
@@ -69,8 +70,9 @@ body {
 }
 
 .result {
+	pointer-events: none;
 	text-align: center;
-	left: 475px;
+	left: 650px;
 	bottom: 9px;
 	color: white;
 /*	left: 37.5%;
