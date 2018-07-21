@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	background-color: #4682B4;
+	margin-top: 0;
+	margin-bottom: 1px;
+	padding: 10px;
+	text-align: center;
+	font-family: "Montserrat";
+	color: white;
+}
+
+#rgb-code {
+	font-size: 70px;
+	color: white;
+}
+
+.middle-bar {
+	background-color: white;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	height: 30px;
+}
+.bar {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 900;
+	border: none;
+}
+
+.reset {
+	padding: 7px 10px 5px 10px;
+	bottom: 30%;
+	left: 29%;
+	color: #4682B4;
+	background-color: white;
+	transition: 0.3s;
+}
+
+.mode-easy {
+	padding: 7px 10px 5px 10px;
+	bottom: 30%;
+	left: 46%;
+	color: #4682B4;
+	background-color: white;
+	transition: 0.3s;
+}
+
+.mode-hard {
+	padding: 7px 10px 5px 10px;
+	bottom: 30%;
+	left: 46%;
+	color: #4682B4;
+	background-color: white;
+	transition: 0.3s;
+}
+
+.result {
+	text-align: center;
+	left: 37.5%;
+	bottom: 35%;
+}
+
+.container {
+	background-color: #242425;
+	margin: auto;
+	width: 100%;
+	height: 420px;
+	text-align: center;
+}
+
+.item {
+	background-color: white;
+	margin: 10px;
+	width: 180px;
+	height: 180px;
+	text-align: center;
+	float: left;
+	/*float: left;*/
+}
+
+.row-1 {
+	/*background: white;*/
+	display: inline-block;
+	width: 100%;
+	position: relative;
+/*	left: 28%;*/
+	text-align: center;
+	margin-top: 10px;
+}
+
+.row-2 {
+	/*background: white;*/
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	/*left: 28%;*/
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6{
+	position: relative;
+	left: 27%;
+	border-radius: 20px;
+}
+
+.bar:focus {
+	outline: 0;
+	color: white;
+	background-color: #4682B4;
+}
+
+.bar:hover {
+	color: white;
+	background-color: #4682B4;
+	transition: 0.3s;
+}
+
+/*Overrides the .bar styling*/
+/*No hover on the "Try Again" span*/
+.result:hover {
+	color: black;
+	background-color: white;
+}
