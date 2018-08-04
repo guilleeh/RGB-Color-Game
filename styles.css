@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	border: 0;
+	font-family: Montserrat;
+}
+
+h1 {
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;
+	background: #4682B4;
+	color: white;
+}
+
+#rgb-code {
+	font-size: 90px;
+}
+
+.result {
+	margin: 0;
+	position: relative;
+	left: 30%;
+}
+
+.reset {
+	margin: 0;
+	position: relative;
+	left: 60%;
+	top: 90%;
+}
+
+.middle-bar {
+	/*margin: 0;*/
+	/*border: 0;*/
+	background: red;
+}
